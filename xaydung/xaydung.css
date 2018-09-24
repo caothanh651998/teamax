@@ -1,0 +1,468 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+.khung{
+	width: 100%;
+	height: 2200px;
+	margin: 0 auto;
+}
+.khung .header{
+	width: 100%;
+	height: 150px;
+}
+.header .logo{
+	float: left;
+	width: 25%;
+	height: 100%;
+}
+.logo img{
+	width: 100%;
+	height: 100%;
+}
+.header .home{
+	float: left;
+	width: 75%;
+	height: 150px;
+}
+.home h2{
+	color: red;
+	font-size: 40px;
+	line-height: 40px;
+	padding: 10px;
+	display: block;
+	width: 70%;
+	height: 50px;
+	margin-left: 40px;
+}
+.home .menu{
+	width: 100%;
+	height: 60px;
+	margin-top: 10px;
+}
+.menu ul{
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	margin: 0 auto;
+}
+.menu ul li{
+	float: left;
+	width: 12.5%;
+	height: 70px;
+	list-style: none;
+	display: block;
+}
+.menu ul li a{
+	color: blue;
+	font-size: 12px;
+	line-height: 70px;
+	padding: 5px;
+	text-decoration: none;
+}
+.menu ul li a:hover{
+	color: red;
+}
+.menu ul li:hover{
+	border-bottom: 3px solid red;
+}
+/* ket thuc */
+.khung .pic{
+	width: 100%;
+	height: 600px;
+}
+.pic img{
+	width: 100%;
+	height: 100%;
+}
+/* ket thuc */
+.khung .content{
+	width: 100%;
+	height: 1340px;
+	background: white;
+}
+/* bat dau thong tin du an */
+.content .thongtinduan{
+	width: 100%;
+	height: 300px;
+	margin: 0 auto;
+	background: white;
+}
+.thongtinduan .box1{
+	width: 100%;
+	height: auto;
+}
+.box1 h3{
+	display: inline-block;
+	width: 100%;
+	height: 35px;
+	line-height: 50px;
+	color: red;
+	margin: 0;
+	text-align: center;
+}
+.thongtinduan .line{
+	width: 13%;
+	height: 3px;
+	margin: 0 auto;
+	background: red;
+	margin-bottom: 30px;
+}
+.thongtinduan .box2{
+	width: 100%;
+	height: auto;
+}
+.box2 ul{
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	list-style: none;
+
+}
+.box2 ul li{
+	float: left;
+	width: 23.5%;
+	height: 200px;
+	margin-right: 2%;
+}
+.box2 ul li.Nodiff{
+	float: left;
+	width: 23.5%;
+	height: 200px;
+	margin-right: -2%;
+}
+.box2 ul li a{
+	text-decoration: none;
+	height: 200px;
+}
+.box2 ul li a:hover{
+	color: red;
+}
+.box2 ul li a img{
+	width: 100%;
+	height: 90%;
+}
+.box2 ul li a .box3{
+	width: 100%;
+	height: 10%;
+	background: blue;
+}
+.box2 ul li a .box3 p{
+	display: block;
+	margin: 0;
+	padding: 0;
+	color: white;
+	text-align: center;
+	font-weight: bold;
+}
+
+/* ket thuc thong ti du an */
+/* *bat dau du an tieu bieu*/ 
+.khung .duantieubieu{
+	clear: both;
+	margin: 0 auto;
+	width: 100%;
+	height: 400px;
+	/*background: blue;*/
+}
+.duantieubieu .titles{
+	width: 100%;
+	height: 60px;
+	/*background: gray;*/
+}
+.titles .text1{
+	float: left;
+	width: 17.5%;
+	height: 40px;
+	/*background: violet;*/
+	margin-top: 10px;
+
+}
+.text1 h2{
+	text-transform: uppercase;
+	font-size: 26px;
+	padding-left: 10px;
+	line-height: 37px;
+	color: red;
+}
+.text1 .line2{
+	width: 95%;
+	height: 3px;
+	background: red;
+	margin-left: 10px;
+}
+.titles .text2{
+	float: right;
+	width: auto;
+	height: 40px;
+	margin-top: 10px;
+	/*background: green;*/
+}
+.diffs1{
+	margin-right: 30px;
+	margin-left: 50px;
+}
+.text2 a{
+	text-decoration: none;
+	font-size: 22px;
+	padding-right: 10px;
+	line-height: 40px;
+	color: blue;
+}
+.text2 a:hover{
+	color: red;
+}
+.duantieubieu .block{
+	float: left;
+	width: 22.75%;
+	height: 340px;
+	/*background: green;*/
+}
+.diffs2{
+	margin-left: 3%;
+	margin-right: 3%;
+}
+.diffs3{
+	margin-left: 3%;
+}
+.block .pics{
+	width: 100%;
+	height: 60%;
+	/*background: pink;*/
+}
+.pics img{
+	width: 100%;
+	height: 100%;
+}
+.block .titles1{
+	width: 100%;
+	height: 10%;
+	/*background: violet;*/
+}
+.titles1 a{
+	text-decoration: none;
+	font-size: 18px;
+}
+.titles1 a h3{
+	text-align: left;
+	padding-left: 10px;
+	line-height: 34px;
+	color: blue;
+}
+.titles1 a h3:hover{
+	color: yellow;
+}
+.block .menus{
+	width: 100%;
+	height: 30%;
+	/*background: pink;*/
+}
+.menus ul{
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	list-style-type: none;
+	text-align: left;
+}
+.menus ul li{
+	display:block;
+	width: 100%;
+	height: auto;
+	padding-left: 10px;
+	font-size: 18px;
+	line-height: 25px;
+}
+/* ket thuc du an tieu bieu */
+/* duan */
+.content .duan{
+	width: 100%;
+	height: 400px;
+	/*background: yellow;*/
+}
+.duan .tttt{
+	float: left;
+	width: 50%;
+	height: 100%;
+	/*background: gray;*/
+}
+.tttt .tintuc{
+	float: left;
+	width: 50%;
+	height: 100%;
+	/*background: red;*/
+}
+.tintuc h2{
+	text-transform: uppercase;
+	color: #d61135;
+	font-size: 19px; 
+	padding: 5px 5px 0px 5px;
+
+}
+.tintuc .line{
+	margin: 0 auto;
+	width: 96%;
+	height: 3px;
+	background: #c40909;
+}
+.tintuc img{
+	margin-top: 5px;
+	width: 350px;
+ 	height: 200px;
+}
+.tintuc a{
+	text-decoration: none;
+	color: blue;
+}
+.tintuc h3{
+	padding: 5px;
+}
+.tintuc a:hover{
+ 	color: red;
+}
+.tintuc p{
+	padding: 5px;
+	font-size: 20px;
+}
+.tttt .thongtin1{
+	float: left;
+	margin-left: 2%;
+	width: 48%;
+	height: 100%;
+	/*background: green;*/
+}
+.thongtin1 ul li{
+	margin-top: 35px;
+	display: block;
+	width: 100%;
+	height: 15%;
+}
+.thongtin1 ul li a img{
+	float: left;
+	margin-right: 5px;
+	width: 80px;
+	height: 55px;
+}
+.thongtin1 ul li p.AN{
+	font-size: 17px;
+}
+.thongtin1 ul li p{
+	font-size: 17px;
+}
+.thongtin1 ul li a{
+	text-decoration: none;
+}
+.thongtin1 ul li a:hover{
+	color: red;
+}
+.thongtin1 img{
+	width: 30px;
+	height: 30px;
+}
+.duan .video{
+	float: left;
+	width: 50%;
+	height: 100%;
+	/*background: blue;*/
+}
+.video h2{
+	text-transform: uppercase;
+	color: #d61135;
+	font-size: 20px; 
+	padding: 5px 5px 0px 5px;
+
+}
+.video .line{
+	margin-left: 10px;
+	width: 323px;
+	height: 3px;
+	background: #c40909;
+}
+.video iframe{
+	margin-top: 10px;
+	margin: 5px;
+	width: 680px;
+	height: 340px;
+
+}
+/* ket thuc du an */
+/* bat dau thong tin */
+.content .thongtin{
+	width: 100%;
+	height: 240px;
+	background: white;
+	display: block;
+}
+.title{
+	width: 50%;
+	margin-left: 5px;
+}
+.title h2{
+	color: red;
+	margin-bottom: 10px;
+}
+.thongtin .gioithieu{
+	width: 32%;
+	height: 240px;
+	float: left;
+}
+.text{
+	width: 100%;
+	height: 90px;
+}
+.text p{
+	margin-left: 5px;
+	font-size: 19px;
+}
+.gioithieu .icon{
+	width: 100%;
+	height: 63px;
+	margin-top: 20px;
+}
+.icon img{
+	float: left;
+	width: 40px;
+	height: 40px;
+	margin-right: 10px;
+	margin-left: 5px;
+}
+.thongtin .lienhe{
+	width: 32%;
+	height: 240px;
+	background: white;
+	float: left;
+	margin-left: 2%;
+
+}
+.lienhe .admin{
+	width: 100%;
+	height: 40px;
+	margin-bottom: 5px;
+}
+.admin img{
+	width: 20px;
+	height: 20px;
+	float: left;
+}
+
+.thongtin .map{
+	width: 32%;
+	height: 240px;
+	background: yellow;
+	float: left;
+	margin-left: 1%;
+}
+.map img{
+	width: 100%;
+	height: 100%;
+}
+.khung .foter{
+	width: 100%;
+	height: 50px;
+	background: blue;
+}
+.foter p{
+	font-size: 25px;
+	padding: 10px ;
+	text-align: center;
+	color: white;
+}
