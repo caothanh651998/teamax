@@ -1,0 +1,455 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+.khung{
+	width: 100%;
+	height: 2000px;
+}
+.khung .header{
+	width: 100%;
+	height: 100px;
+	background: black;
+}
+.header .logo{
+	width: 40%;
+	height: 100px;
+	float: left;
+}
+.logo img{
+	width: 400px;
+	height: 100px;
+	margin-left: 70px;
+}
+.header .menu{
+	width: 60%;
+	height: 90px;
+	float: left;
+	margin-top: 5px;
+}
+.menu ul {
+	width: 90%;
+	height: 90px;
+	list-style: none;
+	margin-left: 140px;
+	line-height: 50px;
+	text-align: center;
+}
+.menu ul li{
+	width: 20%;
+	height: 50px;
+	float: left;
+	margin-top: 20px;
+	border-radius: 10px;
+}
+a{
+	color: white;
+	text-decoration: none;
+	width: 100%;
+	height: 50px;
+	display: block;
+}
+.menu ul li:hover{
+	background: yellow;
+}
+a:hover{
+	color: red;
+}
+.menu ul li.active{
+	border-radius: 10px;
+	background: yellow;
+}
+.khung .content{
+	width: 100%;
+	height: 800px;
+}
+.content .box{
+	width: 100%;
+	height: 300px;
+	background: yellow;
+}
+.box .title{
+	width: 50%;
+	height: 300px;
+	float: left;
+}
+.box h4{
+	color: white;
+	margin-left: 70px;
+	padding-top: 30px;
+	line-height: 40px;
+}
+.box h1{
+	color: white;
+	margin-left: 70px;
+	font-size: 60px;
+	line-height: 70px;
+}
+.box h3{
+	color: white;
+	margin-left: 70px;
+	line-height: 40px;
+}
+.title .id{
+	width: 250px;
+	height: 50px;
+	margin-left: 70px;
+	background: white;
+	margin-top: 30px;
+}
+.id .i1{
+	width: 150px;
+	height: 50px;
+	float: left;
+	line-height: 50px;
+	text-align: center;
+}
+.id .i2{
+	width: 100px;
+	height: 50px;
+	float: left;
+	line-height: 50px;
+	text-align: center;
+	background: black;
+	color: white;
+}
+.box .pic{
+	width:50%;
+	height: 300px;
+	float: left;
+}
+.pic img{
+	width: 450px;
+	height: 290px;
+}
+.content .box1{
+	width: 100%;
+	height: 300px;
+	background: black;
+}
+.box1 .b{
+	width: 30%;
+	height: 300px;
+	margin-left: 2.5%;
+	float: left;
+}
+.box .diff{
+	margin-right: 2%;
+	margin-left: 2%;
+}
+.b .title1{
+	width: 30%;
+	height: 30px;
+	margin: 0 auto;
+	padding-top: 30px;
+	text-align: center;
+}
+.title1 h2{
+	color: white;
+}
+.b .icon{
+	width: 50%;
+	height: 70px;
+	margin: 0 auto;
+}
+.icon img{
+	width: 50px;
+	height: 50px;
+	margin-left: 75px;
+	margin-right: 75px;
+}
+.icon b{
+	width: 150px;
+	margin-left: 30px;
+	color: #D2691E;
+	font-size: 18px;
+}
+.icon:hover{
+	color: red;
+}
+.b .text{
+	width: 100%;
+	height: 160px;
+	margin-top: 10px;
+}
+.text p{
+	text-align: center;
+	padding-top: 10px;
+	color: white;
+}
+.text .more{
+	width: 30%;
+	height: 30px;
+	margin: 0 auto;
+	font-size: 25px;
+	text-align: center;
+	border-radius: 20px;
+	line-height: 30px;
+	margin-top: 40px;
+}
+/* ket thuc box1 */
+.content .box2{
+	width: 100%;
+	height: 700px;
+	padding-top: 20px;
+}
+.box2 .line1{
+	float: left;
+	width: 100px;
+	height: 3px;
+	background: orange;
+	margin-left: 41%;
+	margin-top: 12px;
+}
+.box2 .circle{
+	float: left;
+	width: 25px;
+	height: 25px;
+	background: white;
+	margin-left: 5px;
+	margin-right: 5px;
+	border-radius: 999px;
+	border: 2px solid orange;
+
+}
+.box2 .line2{
+	float: right;
+	width: 100px;
+	height: 3px;
+	background: orange;
+	margin-right: 41%;
+	margin-top: 12px;
+}
+.box2 .title2{
+	clear: both;
+	margin: 0 auto;
+	width: 35%;
+	height: 120px;
+	margin-top: 50px;
+}
+.box2 .title2 h2{
+	color: black;
+	text-align: center;
+	font-size: 34px;
+	text-transform: uppercase;
+	line-height: 50px;
+}
+.box2 .title2 b{
+	color: black;
+	font-size: 20px;
+	text-transform: capitalize;
+	padding: 10px;
+	line-height: 50px;
+}
+.box2 .intro{
+	clear: both;
+	margin: 0 auto;
+	width: 90%;
+	height: 500px;
+}
+
+.box2 .intro .intro1{
+	float: left;
+	width: 21.25%;
+	height: 100%;
+}
+.diff1{
+	margin-left: 5%;
+	margin-right: 5%;
+}
+.diff2{
+	margin-left: 5%;
+}
+.intro1 .pic1{
+	width: 98.7%;
+	height: 35%;
+	background: white;
+	border:2px solid red;
+}
+.pic1 img{
+	padding: 1.5% 1.5%;
+	width: 97%;
+	height: 95%;
+}
+.intro1 .title3{
+	width: 100%;
+	height: 15%;
+	background: gray;
+}
+.title3 h2{
+	color: black;
+	text-align: center;
+	text-transform: uppercase;
+	line-height: 50px;
+}
+.title3 .line3{
+	margin: 0 auto;
+	width: 20%;
+	height: 3px;
+	background: yellow;
+	margin-top: 10px;
+}
+.intro1 .text1{
+	width: 100%;
+	height: 49.2%;
+	background: red;
+}
+.intro1 .text1 p{
+	color: black;
+	text-align: center;
+	font-size: 18px;
+	line-height: 30px;
+	padding-top: 20px;
+}
+.intro1 .text1 a{
+	display: block;
+	margin: 0 auto;
+	width: 60%;
+	height: 50px;
+	background: yellow;
+	text-decoration: none;
+	font-size: 20px;
+	color: white;
+	text-transform: uppercase;
+	text-align: center;
+	line-height: 50px;
+	border-radius: 50px 80px 0 50px;
+	margin-top: 30px;
+}
+.text1 a:hover{
+	color: red;
+	background: gray;
+}
+/* ket thuc box2 */
+.content .box3{
+	clear: both;
+	width: 100%;
+	height: auto;
+	padding-top: 20px;
+}
+.box3 .titl2{
+	clear: both;
+	margin: 0 auto;
+	width: 35%;
+	height: 120px;
+	margin-top: 50px;
+}
+.box3 .titl2 h2{
+	color: black;
+	text-align: center;
+	font-size: 34px;
+	text-transform: uppercase;
+	line-height: 50px;
+}
+.titl2 b{
+	color: black;
+	font-size: 20px;
+	text-transform: capitalize;
+	padding: 10px;
+	line-height: 50px;
+	margin-left: 55px;
+
+}
+.intro1 .pic2{
+	margin: 0 auto;
+	width: 100%;
+	height: 170px;
+}
+.intro1 .pic2 img{
+	width: 100%;
+	height: 100%;
+}
+.intro1 .p{
+	margin: 0 auto;
+	width: 98%;
+	height: 64.4%;
+	border-left: 3px solid gray;
+	border-right: 3px solid gray;
+	border-bottom: 3px solid gray;
+}
+.p .title4{
+	width: 100%;
+	height: 25%;
+}
+.title4 h2{
+	color: black;
+	text-align: center;
+	text-transform: uppercase;
+	line-height: 50px;
+	padding-bottom: 20px;
+}
+.p .text2{
+	width: 100%;
+	height: 75%;
+}
+.text2 .bo{
+	float: left;
+	width: 50%;
+	height:50%;
+}
+.bo p{
+	color: black;
+	text-align: left;
+	padding-left: 20px;
+	font-size: 18px;
+	line-height: 30px;
+	padding-top: 20px;
+	text-transform: uppercase;
+}
+.bo  .diff p{
+	color: black;
+	text-align: right;
+	padding-right: 20px;
+	font-size: 18px;
+	line-height: 30px;
+	padding-top: 20px;
+	text-transform: uppercase;
+}
+.text2 a{
+	display: inline-block;
+	width: 60%;
+	height: 50px;
+	background: black;
+	text-decoration: none;
+	font-size: 20px;
+	color: white;
+	text-transform: uppercase;
+	text-align: center;
+	line-height: 50px;
+	border-radius: 50px 80px 0 50px;
+	margin-left: 20%;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.text2 a:hover{
+	 color: red;
+	 background: green;
+}
+/* bat dau foter */
+.khung .foter{
+	width: 100%;
+	height: 50px;
+	background: yellow;
+	margin-top: 10px;
+}
+.foter .copyright{
+	width: 60%;
+	height: 50px;
+	float: left;
+	line-height: 50px;
+}
+.copyright h4{
+	color: white;
+	padding-left: 50px;
+}
+.foter .team{
+	width: 40%;
+	height: 50px;
+	float: left;
+	line-height: 50px;
+}
+.team p{
+	color: white;
+	font-size: 20px;
+	padding-left: 10 0px;
+}
